@@ -27,7 +27,7 @@ jobs:
       with:
         node-version: 12
     - name: Instal Surge
-      run: npm install --save surge
+      run: npm install -g surge
     - name: Deploy Using Surge
       run: surge ./ piaic_bootcamp_bilaltahseen.surge.sh --token ${{secrets.SURGE_TOKEN}} 
     
