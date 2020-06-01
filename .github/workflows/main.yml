@@ -31,7 +31,7 @@ jobs:
     - name: Deploy Using Surge
       run: surge ./ piaic_bootcamp_bilaltahseen.surge.sh --token ${{secrets.SURGE_TOKEN}} 
     - name: Echo Url
-      run: echo deployed at piaic_bootcamp_bilaltahseen.surge.s
+      run: echo "deployed at piaic_bootcamp_bilaltahseen.surge.sh"
     
           
 
